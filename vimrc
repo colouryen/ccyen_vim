@@ -55,10 +55,11 @@ set wildignore=*.o,*.class,*.pyc
 
 set autoindent		" auto indentation
 set incsearch		" incremental search
-set nobackup		" no *~ backup files
-set copyindent		" copy the previous indentation on autoindenting
+set hlsearch            " highlighted search results
 set ignorecase		" ignore case when searching
 set smartcase		" ignore case if search pattern is all lowercase,case-sensitive otherwise
+set nobackup		" no *~ backup files
+set copyindent		" copy the previous indentation on autoindenting
 set smarttab		" insert tabs on the start of a line according to context
 
 " disable sound on errors
